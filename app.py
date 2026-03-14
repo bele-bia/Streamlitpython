@@ -8,6 +8,18 @@ c = conn.cursor()
 c.execute('CREATE TABLE IF NOT EXISTS usuarios (nome TEXT, email TEXT, telefone TEXT)')
 conn.commit()
 
+# Define a largura desejada (ex: 400px, o padrão é ~300px)
+st.markdown(
+    """
+    <style>
+        [data-testid="stSidebar"] {
+            width: 450px;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 # 2. Interface Streamlit
 st.title("Sistema de Cadastro Remoto Luiz")
 st.sidebar.header("Cadastro")
