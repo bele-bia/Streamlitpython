@@ -13,7 +13,7 @@ st.markdown(
     """
     <style>
         [data-testid="stSidebar"] {
-            width: 800px;
+            width: 100px;
         }
     </style>
     """,
