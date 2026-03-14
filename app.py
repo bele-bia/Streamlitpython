@@ -9,7 +9,7 @@ c.execute('CREATE TABLE IF NOT EXISTS usuarios (nome TEXT, email TEXT, telefone 
 conn.commit()
 
 # 2. Interface Streamlit
-st.title("Sistema de Cadastro Remoto")
+st.title("Sistema de Cadastro Remoto Luiz")
 st.sidebar.header("Cadastro")
 
 nome = st.sidebar.text_input("Nome")
